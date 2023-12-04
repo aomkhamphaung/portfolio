@@ -29,7 +29,7 @@ const Footer = () => {
                     <a href="https://github.com/aomkhamphaung" target='blank' className='footer__social-link'><i class="uil uil-github-alt"></i></a>
                 </div>
 
-                <span className='footer__copy'>&#169; aomkhamphaung All rights reserved</span>
+                <span className='footer__copy'>&#169; aomkhamphaung | All rights reserved</span>
             </div>
         </footer>
     )
