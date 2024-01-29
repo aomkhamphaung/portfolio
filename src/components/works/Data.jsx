@@ -6,6 +6,7 @@ import Template5 from "../../assets/template5.png";
 import Backend1 from "../../assets/backend1.png";
 import Backend2 from "../../assets/backend2.png";
 import Backend3 from "../../assets/backend3.png";
+import Backend4 from "../../assets/backend4.png";
 import Frontend1 from "../../assets/frontend1.png";
 import Frontend2 from "../../assets/frontend2.png";
 
@@ -79,6 +80,13 @@ export const data = [
         title: "Portfolio",
         category: "Frontend",
         link: "https://github.com/aomkhamphaung"
+    },
+    {
+        id: 11,
+        image: Backend4,
+        title: "Filament Admin Panel",
+        category: "Backend",
+        link: "https://github.com/aomkhamphaung/Filament"
     }
 ];
 

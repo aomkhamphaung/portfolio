@@ -24,28 +24,28 @@ const Contact = () => {
                 <i class="uil uil-envelope contact__card-icon"></i>
 
                 <h3 className='contact__card-title'>Email</h3>
-                <span className='contact__card-data'>akhamphaung@gmail.com</span>
+                <span className='contact__card-data'>aomkhamphaung.dev@gmail.com</span>
 
-                <a href="mailto:akhamphaung@gmail.com" target='blank' className='contact__button'>Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                <a href="mailto:aomkhamphaung.dev@gmail.com" target='blank' className='contact__button'>Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
               </div>
 
               <div className="contact__card">
-                <i class="uil uil-instagram contact__card-icon"></i>
+                <i class="uil uil-linkedin contact__card-icon"></i>
 
-                <h3 className='contact__card-title'>Instagram</h3>
+                <h3 className='contact__card-title'>LinkedIn</h3>
                 <span className='contact__card-data'>@aom_kham_phaung</span>
 
-                <a href="https://www.instagram.com/aom_kham_phaung/" target='blank' className='contact__button'>Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                <a href="https://www.linkedin.com/in/aom-kham-phaung-903291242/" target='blank' className='contact__button'>Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
               </div>
 
-              <div className="contact__card">
+              {/* <div className="contact__card">
                 <i class="uil uil-telegram-alt contact__card-icon"></i>
 
                 <h3 className='contact__card-title'>Telegram</h3>
                 <span className='contact__card-data'>@aomkhamphaung</span>
 
                 <a href="https://t.me/aomkhamphaung" target='blank' className='contact__button'>Write me <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
-              </div>
+              </div> */}
             </div>
             </div>
 
