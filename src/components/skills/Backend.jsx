@@ -7,7 +7,7 @@ const Backend = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">PHP</h3>
@@ -15,7 +15,7 @@ const Backend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Laravel</h3>
@@ -23,7 +23,7 @@ const Backend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">NodeJS</h3>
@@ -31,7 +31,7 @@ const Backend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">ExpressJS</h3>
@@ -41,7 +41,7 @@ const Backend = () => {
         </div>
 
         <div className="skills__group">
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
 
             <div>
@@ -50,7 +50,7 @@ const Backend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
 
             <div>
@@ -59,7 +59,7 @@ const Backend = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
 
             <div>

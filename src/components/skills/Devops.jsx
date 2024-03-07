@@ -7,7 +7,7 @@ const Devops = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Git</h3>
@@ -15,7 +15,7 @@ const Devops = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Github</h3>
@@ -23,7 +23,7 @@ const Devops = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Docker</h3>
@@ -31,7 +31,7 @@ const Devops = () => {
             </div>
           </div>
 
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">CI/CD Development</h3>
@@ -41,7 +41,7 @@ const Devops = () => {
         </div>
 
         <div className="skills__group">
-          <div className="skills__data">
+          <div className="skills__data bx-tada-hover">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Linux Shell Scripting</h3>
