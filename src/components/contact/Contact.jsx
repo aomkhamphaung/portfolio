@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Toaster, toast } from "sonner";
 import "./contact.css";
 
 const Contact = () => {
@@ -78,7 +79,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Say Hello</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
@@ -92,7 +93,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
+              <label className="contact__form-tag">Email</label>
               <input
                 type="email"
                 name="email"
@@ -102,7 +103,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
                 name="project"
                 className="contact__form-input"
@@ -113,8 +114,12 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button className="button button--flex">
-              Send Message{" "}
+            <Toaster richColors expand={false} position="bottom-right" />
+            <button
+              className="button button--flex"
+              onClick={() => toast.success("Email sent successfully!")}
+            >
+              Send{" "}
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
