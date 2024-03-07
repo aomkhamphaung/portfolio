@@ -49,10 +49,14 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">High School Graduated</h3>
-                <span className="qualification__subtitle">6 Distinctions</span>
+                <h3 className="qualification__title">
+                  Computer Applications and Information Technology
+                </h3>
+                <span className="qualification__subtitle">
+                  Arizona State University
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2024 Mar - Present
                 </div>
               </div>
 
@@ -68,20 +72,6 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-              <div>
-                <h3 className="qualification__title">
-                  Zero to Pro CS Bootcamp(Level-4 + Level-3)
-                </h3>
-                <span className="qualification__subtitle">
-                  Myanmar IT Bootcamp
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 Feb - 2022 Oct
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
                   PHP and Laravel Bootcamp
@@ -93,6 +83,20 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2022 Nov - 2023 Apr
                 </div>
               </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Zero to Pro CS Bootcamp(Level-4 + Level-3)
+                </h3>
+                <span className="qualification__subtitle">
+                  Myanmar IT Bootcamp
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2022 Feb - 2022 Oct
+                </div>
+              </div>
 
               <div>
                 <span className="qualification__rounder"></span>
@@ -107,10 +111,10 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Special Web Design</h3>
-                <span className="qualification__subtitle">MMSIT</span>
+                <h3 className="qualification__title">High School Graduated</h3>
+                <span className="qualification__subtitle">6 Distinctions</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 Aug - Present
+                  <i className="uil uil-calendar-alt"></i> 2019 - 2020
                 </div>
               </div>
             </div>
