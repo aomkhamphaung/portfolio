@@ -1,70 +1,55 @@
-import Template1 from "../../assets/template1.png";
-import Template2 from "../../assets/template2.png";
-import Template3 from "../../assets/template3.png";
-import Template4 from "../../assets/template4.png";
-import Template5 from "../../assets/template5.png";
+import Resto from "../../assets/resto.png";
+import Filament from "../../assets/filament.png";
+import Medium from "../../assets/medium.png";
 import Backend1 from "../../assets/backend1.png";
 import Backend2 from "../../assets/backend2.png";
 import Backend3 from "../../assets/backend3.png";
-import Backend4 from "../../assets/backend4.png";
 import Frontend1 from "../../assets/frontend1.png";
 
 export const data = [
   {
     id: 1,
-    image: Template4,
-    title: "Phaung's Floral",
+    image: Resto,
+    title: "Resto",
     category: "Template",
-    link: "https://github.com/aomkhamphaung/Floral_Shop",
+    repo_link: "https://github.com/aomkhamphaung/Resto",
+    demo_link: "https://aomkhamphaung.github.io/Final_project/",
+    description:
+      "Resto is a responsive restaurant order management template designed with HTML, CSS, JavaScript, and Bootstrap. It offers a visually appealing interface for showcasing menu items and provides a foundation for building a fully functional order management system.",
   },
   {
     id: 2,
-    image: Template2,
-    title: "Attack on Titan",
-    category: "Template",
-    link: "https://github.com/aomkhamphaung/attack-on-titan",
-  },
-  {
-    id: 3,
-    image: Template3,
-    title: "Resto",
-    category: "Template",
-    link: "https://github.com/aomkhamphaung/Resto",
-  },
-  {
-    id: 4,
-    image: Template5,
-    title: "Sneaker",
-    category: "Template",
-    link: "https://github.com/aomkhamphaung/Sneaker.git",
-  },
-  {
-    id: 5,
-    image: Template1,
-    title: "Bright Future",
-    category: "Template",
-    link: "https://github.com/aomkhamphaung/Bright_Future",
+    image: Filament,
+    title: "Filament Admin Panel",
+    category: "PHP (Laravel)",
+    repo_link: "https://github.com/aomkhamphaung/Filament",
+    description:
+      "Filament Admin Panel streamlines online platform management with user-friendly tools. It enables CRUD operations for users, items, and blog content. With role-based access control, administrators can efficiently manage permissions and roles. Integrated with MySQL, it ensures reliability and scalability in data management, providing a robust solution for efficient administration.",
   },
   {
     id: 6,
     image: Backend1,
     title: "Sweet Cake",
-    category: "Backend",
+    category: "PHP (Laravel)",
     link: "https://github.com/aomkhamphaung/Bakery_ordering_system",
+    description: "This is how this project is made",
   },
   {
-    id: 7,
-    image: Backend2,
-    title: "Medium Socail Media",
-    category: "Backend",
-    link: "https://github.com/aomkhamphaung/medium",
+    id: 3,
+    image: Medium,
+    title: "Medium Social Medium",
+    category: "PHP (Laravel)",
+    repo_link: "https://github.com/aomkhamphaung/medium",
+    description:
+      "Medium inspired blog site with user authentication, authorization, and seamless social media login via Laravel Socialite. Implemented interactive features like liking, unliking, and commenting for enhanced user engagement. Ensured data security and privacy with robust authentication measures, meeting project requirements within the set timeline.",
   },
   {
     id: 8,
     image: Backend3,
     title: "Hospital Management System",
-    category: "Backend",
+    category: "PHP (Laravel)",
     link: "https://github.com/aomkhamphaung/hospital_appointment_management_system",
+    description: "This is how this project is made",
   },
   {
     id: 9,
@@ -72,13 +57,7 @@ export const data = [
     title: "Movie Land",
     category: "Frontend",
     link: "https://github.com/aomkhamphaung/MovieLand",
-  },
-  {
-    id: 11,
-    image: Backend4,
-    title: "Filament Admin Panel",
-    category: "Backend",
-    link: "https://github.com/aomkhamphaung/Filament",
+    description: "This is how this project is made",
   },
 ];
 
@@ -87,12 +66,12 @@ export const projectsNav = [
     name: "All",
   },
   {
+    name: "PHP (Laravel)",
+  },
+  {
+    name: "NodeJS",
+  },
+  {
     name: "Template",
-  },
-  {
-    name: "Backend",
-  },
-  {
-    name: "Frontend",
   },
 ];

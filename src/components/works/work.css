@@ -33,6 +33,18 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail__button {
+    display: inline-block;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
 }
 
 .work__img {
@@ -53,6 +65,7 @@
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+    cursor: pointer;
 }
 
 .work__button-icon {
@@ -69,6 +82,26 @@
 .active-work {
     background-color: var(--title-color);
     color: var(--container-color);
+}
+
+.demo__button {
+    display: inline-block;
+    background-color: var(--container-color);
+    color: var(--title-color);
+    border: 1px solid var(--title-color);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+    margin: 0rem 2rem;
+}
+
+.repo__button {
+    display: inline-block;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
 }
 
 /*=============== BREAKPOINTS ===============*/
