@@ -8,13 +8,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_aol101a",
-      "template_9tl9vih",
-      form.current,
-      "dPrwTnlgMN8Qoobh8"
-    );
-    e.target.reset();
+    emailjs
+      .sendForm(
+        "service_aol101a",
+        "template_9tl9vih",
+        form.current,
+        "dPrwTnlgMN8Qoobh8"
+      )
+      .then(() => {
+        toast.success("Email sent successfully!");
+        e.target.reset();
+      })
+      .catch((err) => {
+        toast.error("Something went wrong!");
+        console.log(err);
+      });
   };
   return (
     <section className="contact section" id="contact">
@@ -81,7 +89,12 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Say Hello</h3>
 
-          <form ref={form} onSubmit={sendEmail} className="contact__form">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="contact__form"
+            autoComplete="off"
+          >
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
@@ -89,6 +102,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -99,6 +113,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
@@ -111,14 +126,11 @@ const Contact = () => {
                 id=""
                 cols="30"
                 rows="10"
+                required
               ></textarea>
             </div>
 
-            <Toaster richColors expand={false} position="bottom-right" />
-            <button
-              className="button button--flex"
-              onClick={() => toast.success("Email sent successfully!")}
-            >
+            <button className="button button--flex">
               Send{" "}
               <svg
                 class="button__icon"
@@ -139,6 +151,7 @@ const Contact = () => {
               </svg>
             </button>
           </form>
+          <Toaster richColors expand={false} position="bottom-right" />
         </div>
       </div>
     </section>
