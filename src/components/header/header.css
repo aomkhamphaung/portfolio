@@ -116,11 +116,19 @@
     .nav__toggle {
         display: block;
     }
+
+    .logo__svg {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 350px) {
     .nav__menu {
         padding: 2rem 0.25rem 4rem;
+    }
+
+    .logo__svg {
+        display: none;
     }
 
     .nav__link {

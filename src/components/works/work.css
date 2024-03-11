@@ -128,6 +128,11 @@
 @media screen and (max-width: 768px) {
     .work__container {
         grid-template-columns: max-content;
+        margin: 0px 50px;
+    }
+
+    .work__filters {
+        margin: 0px 50px 30px 50px;
     }
 }
 
