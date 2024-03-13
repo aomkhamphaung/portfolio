@@ -1,28 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3269d312.css",
-    "main.js": "/portfolio/static/js/main.558db902.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/template2.png": "/portfolio/static/media/template2.a63860dc5351ede1befd.png",
-    "static/media/template1.png": "/portfolio/static/media/template1.5d94e7b36c220001fa76.png",
-    "static/media/template4.png": "/portfolio/static/media/template4.d2a1c4c8ffbae05df584.png",
-    "static/media/template5.png": "/portfolio/static/media/template5.17d8c7b4feb4261dc0f9.png",
-    "static/media/frontend1.png": "/portfolio/static/media/frontend1.3afc3205d535ab198645.png",
-    "static/media/backend1.png": "/portfolio/static/media/backend1.08b84617f48914809d2b.png",
-    "static/media/template3.png": "/portfolio/static/media/template3.49820c3741e946a0196f.png",
+    "main.css": "/portfolio/static/css/main.5cec3cff.css",
+    "main.js": "/portfolio/static/js/main.658ea65e.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/frontend1.png": "/portfolio/static/media/frontend1.b75cb208fb040756a8f5.png",
+    "static/media/backend1.png": "/portfolio/static/media/backend1.9cd1d5bd44a4e867f98f.png",
+    "static/media/resto.png": "/portfolio/static/media/resto.cf1b9adac6f40dc251e0.png",
     "static/media/backend3.png": "/portfolio/static/media/backend3.f4a4087c39547fafaedb.png",
-    "static/media/frontend2.png": "/portfolio/static/media/frontend2.94b8520204b0c7c0cd63.png",
-    "static/media/about_img.jpg": "/portfolio/static/media/about_img.ce74562cd802efbc09fa.jpg",
+    "static/media/medium.png": "/portfolio/static/media/medium.417273006afe2c3bfbb4.png",
     "static/media/IMG_2429.JPG": "/portfolio/static/media/IMG_2429.ba32e12d529a1a8650cd.JPG",
-    "static/media/Aom_Kham_Phaung_CV.pdf": "/portfolio/static/media/Aom_Kham_Phaung_CV.b5f9e6edc06f5d57cbfe.pdf",
-    "static/media/backend2.png": "/portfolio/static/media/backend2.3858134d153cc2e2e798.png",
+    "static/media/Aom_Kham_Phaung.pdf": "/portfolio/static/media/Aom_Kham_Phaung.e4b6503de422bbfeca54.pdf",
+    "static/media/filament.png": "/portfolio/static/media/filament.09ff7e7b6c63141152d4.png",
+    "static/media/node.jpg": "/portfolio/static/media/node.6fa561eadcb987b0c442.jpg",
     "index.html": "/portfolio/index.html",
-    "main.3269d312.css.map": "/portfolio/static/css/main.3269d312.css.map",
-    "main.558db902.js.map": "/portfolio/static/js/main.558db902.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.5cec3cff.css.map": "/portfolio/static/css/main.5cec3cff.css.map",
+    "main.658ea65e.js.map": "/portfolio/static/js/main.658ea65e.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3269d312.css",
-    "static/js/main.558db902.js"
+    "static/css/main.5cec3cff.css",
+    "static/js/main.658ea65e.js"
   ]
 }
