@@ -16,6 +16,7 @@ const Header = () => {
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           <svg
+            className="logo__svg"
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
             width="300px"
