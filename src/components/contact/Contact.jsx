@@ -122,7 +122,7 @@ const Contact = () => {
               <textarea
                 name="project"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Leave me a message"
                 id=""
                 cols="30"
                 rows="10"
