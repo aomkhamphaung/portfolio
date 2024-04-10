@@ -59,7 +59,7 @@ const Contact = () => {
               <span className="contact__card-data">@aom_kham_phaung</span>
 
               <a
-                href="https://www.linkedin.com/in/aom-kham-phaung-903291242/"
+                href="https://www.linkedin.com/in/aomkhamphaung/"
                 target="blank"
                 className="contact__button"
               >
