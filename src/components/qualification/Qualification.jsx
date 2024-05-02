@@ -50,13 +50,13 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Computer Applications and Information Technology
+                  Bachelor of Arts in Computer Science
                 </h3>
                 <span className="qualification__subtitle">
-                  Arizona State University
+                  University Of the People
                 </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2024 Mar - Present
+                <div className="qualification__calendar"> 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> 
                 </div>
               </div>
 
@@ -74,13 +74,13 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">
-                  PHP and Laravel Bootcamp
+                  Computer Applications and Information Technology
                 </h3>
                 <span className="qualification__subtitle">
-                  Host Myanmar Mandalay
+                  Arizona State University
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 Nov - 2023 Apr
+                  <i className="uil uil-calendar-alt"></i> 2024 Mar - Present
                 </div>
               </div>
             </div>
