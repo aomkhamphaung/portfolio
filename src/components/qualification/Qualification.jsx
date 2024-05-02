@@ -134,7 +134,7 @@ const Qualification = () => {
                 </h3>
                 <span className="qualification__subtitle">ILBC, Edtech</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 Jun - Present
+                  <i className="uil uil-calendar-alt"></i> 2023 Jun - 2024 Apr
                 </div>
               </div>
 
