@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3c74aa1d.css",
-    "main.js": "/portfolio/static/js/main.b23f97ed.js",
+    "main.css": "/portfolio/static/css/main.5cec3cff.css",
+    "main.js": "/portfolio/static/js/main.a8358766.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/frontend1.png": "/portfolio/static/media/frontend1.b75cb208fb040756a8f5.png",
     "static/media/backend1.png": "/portfolio/static/media/backend1.9cd1d5bd44a4e867f98f.png",
@@ -9,16 +9,16 @@
     "static/media/backend3.png": "/portfolio/static/media/backend3.f4a4087c39547fafaedb.png",
     "static/media/medium.png": "/portfolio/static/media/medium.417273006afe2c3bfbb4.png",
     "static/media/IMG_2429.JPG": "/portfolio/static/media/IMG_2429.ba32e12d529a1a8650cd.JPG",
-    "static/media/Aom_Kham_Phaung.pdf": "/portfolio/static/media/Aom_Kham_Phaung.e4b6503de422bbfeca54.pdf",
+    "static/media/Aom_Kham_Phaung.pdf": "/portfolio/static/media/Aom_Kham_Phaung.05ecb8f6e6ab087622c6.pdf",
     "static/media/filament.png": "/portfolio/static/media/filament.09ff7e7b6c63141152d4.png",
     "static/media/node.jpg": "/portfolio/static/media/node.6fa561eadcb987b0c442.jpg",
     "index.html": "/portfolio/index.html",
-    "main.3c74aa1d.css.map": "/portfolio/static/css/main.3c74aa1d.css.map",
-    "main.b23f97ed.js.map": "/portfolio/static/js/main.b23f97ed.js.map",
+    "main.5cec3cff.css.map": "/portfolio/static/css/main.5cec3cff.css.map",
+    "main.a8358766.js.map": "/portfolio/static/js/main.a8358766.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c74aa1d.css",
-    "static/js/main.b23f97ed.js"
+    "static/css/main.5cec3cff.css",
+    "static/js/main.a8358766.js"
   ]
 }
