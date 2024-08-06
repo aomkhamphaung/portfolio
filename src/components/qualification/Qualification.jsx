@@ -55,8 +55,8 @@ const Qualification = () => {
                 <span className="qualification__subtitle">
                   University Of the People
                 </span>
-                <div className="qualification__calendar"> 2024 - Present
-                  <i className="uil uil-calendar-alt"></i> 
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2024 - Present
                 </div>
               </div>
 
@@ -130,11 +130,11 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Junior Backend Developer
+                  Laravel Developer
                 </h3>
-                <span className="qualification__subtitle">ILBC, Edtech</span>
+                <span className="qualification__subtitle">Coosy</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 Jun - 2024 Apr
+                  <i className="uil uil-calendar-alt"></i> 2024 Aug - Present
                 </div>
               </div>
 
@@ -152,18 +152,42 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">
-                  Laravel Developer (Internship)
+                  Junior Backend Developer
                 </h3>
                 <span className="qualification__subtitle">
-                  Host Myanmar IT Solution
+                  ILBC, Edtech House
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 May
+                  <i className="uil uil-calendar-alt"></i> 2023 Jun - 2024 May
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Laravel Developer (Internship)
+                </h3>
+                <span className="qualification__subtitle">
+                  Host Myanmar Mandalay
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023 May
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
               <div>
                 <h3 className="qualification__title">
                   PHP, Laravel On Job Training
@@ -174,11 +198,6 @@ const Qualification = () => {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2023 Feb - 2023 Apr
                 </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
