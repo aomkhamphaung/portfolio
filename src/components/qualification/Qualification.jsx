@@ -50,7 +50,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Bachelor of Arts in Computer Science
+                  Bachelor of Science in Computer Science
                 </h3>
                 <span className="qualification__subtitle">
                   University Of the People
@@ -80,7 +80,7 @@ const Qualification = () => {
                   Arizona State University
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2024 Mar - Present
+                  <i className="uil uil-calendar-alt"></i> 2024 Mar - 2024 Jul
                 </div>
               </div>
             </div>
